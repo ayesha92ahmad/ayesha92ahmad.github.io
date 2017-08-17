@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ayesha Ahmad's blog
+title: Ayesha Ahmad's site
 email: aahmad02@syr.edu
 description: > # this means to ignore newlines until "baseurl:"
   Here to learn and share. The blog is for my thoughts and learnings from technology
@@ -23,14 +23,19 @@ twitter_username: ayesha92ahmad
 github_username:  ayesha92ahmad
 disqus:
     shortname: ayesha92ahmad-github-io
-
+featurepic: assets/featurepic.jpeg
+displaypic: assets/dp.jpg
 google_analytics: UA-104533568-1
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
