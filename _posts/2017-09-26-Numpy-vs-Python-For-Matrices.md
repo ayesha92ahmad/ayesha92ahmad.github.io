@@ -28,7 +28,7 @@ The following steps are performed on Matrices using both Pure python and numpy a
 13. Subtract the mean of each column of matrix b.
 14. Transpose matrix c, add 5 to all elements in matrix, and store to variable e.
 15. Reshape matrix e to 1d array, store to variable f, and print shape of f matrix.
-![Comparison Report](https://github.com/ayesha92ahmad/ayesha92ahmad.github.io/blob/master/assets/img/report.png)
+![Comparison Report]({{ site.url }}/assets/img/report.png)
 
 
 We see that though for smaller matrices Python has better timing, Numpy performs visibly better for larger matrices and lists.
