@@ -70,29 +70,29 @@ I performed the regular steps to first get the tokens, removed the stop words, a
 3. Filtration of non-alphabets: This process helps in making sure that the words are made up of mostly alphabets.
 4. Filtration of stop-words using the 'Smart.english.stop': This process helps in removing common English words that might cause a bias in the Natural language understanding. Eg. a, an, the, in, on, under are removed from the analysis as they are likely to occur in most documents and they do not help in understanding what is discussed in the document. Stop words list has been modified for the purpose of improving the quality of analysis.
 5.	Word frequencies:
-    a.	This shows the number of occurrences of words in the document, after arranging it in decreasing order of frequencies.
-    b.	In NLTK, we obtain frequency by using FreqDist class from nltk library and feeding the preprocessed words into that.
-    c.	We then pick out most common by using the method most common from the FreqDist class.
+    1.	This shows the number of occurrences of words in the document, after arranging it in decreasing order of frequencies.
+    1.	In NLTK, we obtain frequency by using FreqDist class from nltk library and feeding the preprocessed words into that.
+    1.	We then pick out most common by using the method most common from the FreqDist class.
 6.	Bigram frequencies:
-    a.	This shows the percentage of time two words occur together in decreasing order
-    b.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
+    1.	This shows the percentage of time two words occur together in decreasing order
+    1.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
     And then use attribute raw_freq to get frequency
 7.	Bigram PMI:
-    a.	This shows the probability of the second word given the first.
-    b.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
-    c.	And then can be displayed by using the pmi attribute of the object.
+    1.	This shows the probability of the second word given the first.
+    1.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
+    1.	And then can be displayed by using the pmi attribute of the object.
 8. Bigram PMI:
-    a.	This shows the probability of the second word given the first.
-    b.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
-    c.	And then can be displayed by using the pmi attribute of the object.
+    1.	This shows the probability of the second word given the first.
+    1.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
+    1.	And then can be displayed by using the pmi attribute of the object.
 9.	Trigram frequencies:
-    a.	This shows the percentage of time three words occur together in decreasing order
-    b.	We use nltk.collocations.TrigramAssocMeasures() to find this measure.
-    c. And then use attribute raw_freq to get frequency
+    1.	This shows the percentage of time three words occur together in decreasing order
+    1.	We use nltk.collocations.TrigramAssocMeasures() to find this measure.
+    1. And then use attribute raw_freq to get frequency
 10.	Trigram PMI:
-    a.	This shows the Joint probability of all 3 over individual probabilities of all 3.
-    b.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
-    c.	And then can be displayed by using the pmi attribute of the object.
+    1.	This shows the Joint probability of all 3 over individual probabilities of all 3.
+    1.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
+    1.	And then can be displayed by using the pmi attribute of the object.
 
 
 
