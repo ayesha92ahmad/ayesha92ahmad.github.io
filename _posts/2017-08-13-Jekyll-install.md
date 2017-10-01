@@ -4,6 +4,9 @@ comments: true
 title:  "Setting up jekyll"
 excerpt: "All issues faced during jekyll install with solutions"
 date:   2017-08-13 22:00:00
+tags:
+- jekyll
+- code
 ---
 ## Setting up jekyll
 

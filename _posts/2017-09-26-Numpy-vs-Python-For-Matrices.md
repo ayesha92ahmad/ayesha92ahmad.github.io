@@ -4,6 +4,10 @@ comments: true
 title:  "Pure Python vs. Numpy for matrices"
 excerpt: "Which one wins?"
 date:   2017-09-26 22:00:00
+tags:
+- Python
+- Numpy
+- Machine learning foundation
 ---
 
 Hello there!
