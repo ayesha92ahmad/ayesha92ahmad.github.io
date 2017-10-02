@@ -32,6 +32,7 @@ The following steps are performed on Matrices using both Pure python and numpy a
 13. Subtract the mean of each column of matrix b.
 14. Transpose matrix c, add 5 to all elements in matrix, and store to variable e.
 15. Reshape matrix e to 1d array, store to variable f, and print shape of f matrix.
+
 ![Comparison Report]({{ site.url }}/assets/img/report.png)
 
 

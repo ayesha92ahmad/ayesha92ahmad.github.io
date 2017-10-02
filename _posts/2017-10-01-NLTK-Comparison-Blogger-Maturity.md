@@ -63,7 +63,6 @@ Later, I combined the contents from each txt file manually because there were on
 
 I performed the regular steps to first get the tokens, removed the stop words, and finally get the most common frequencies. The code is present with the output on my [github page](https://github.com/ayesha92ahmad/blog-comparison-teen-middleaged). Feel free to check it out.
 
-## Procedure
 
 1. Tokenization: It is the task of breaking a document into pieces called tokens by using space or other punctuation marks as delimiters.
 2. Conversion to lower case: This is done to remove the case sensitivity. So that ‘A’ is not different from ‘a’.
@@ -81,15 +80,11 @@ I performed the regular steps to first get the tokens, removed the stop words, a
     1.	This shows the probability of the second word given the first.
     1.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
     1.	And then can be displayed by using the pmi attribute of the object.
-8. Bigram PMI:
-    1.	This shows the probability of the second word given the first.
-    1.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
-    1.	And then can be displayed by using the pmi attribute of the object.
-9.	Trigram frequencies:
+8.	Trigram frequencies:
     1.	This shows the percentage of time three words occur together in decreasing order
     1.	We use nltk.collocations.TrigramAssocMeasures() to find this measure.
     1. And then use attribute raw_freq to get frequency
-10.	Trigram PMI:
+9.	Trigram PMI:
     1.	This shows the Joint probability of all 3 over individual probabilities of all 3.
     1.	We use nltk.collocations.BigramAssocMeasures() to find this measure.
     1.	And then can be displayed by using the pmi attribute of the object.
