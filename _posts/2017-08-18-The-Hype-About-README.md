@@ -1,5 +1,6 @@
 ---
 layout: post
+crosspost_to_medium: true
 comments: true
 title:  "The Hype about README.md"
 excerpt: "Reiterating the importance of documentation no matter how simple a programming language gets"

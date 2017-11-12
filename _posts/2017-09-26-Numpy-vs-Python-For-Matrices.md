@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+crosspost_to_medium: true
 title:  "Pure Python vs. Numpy for matrices"
 excerpt: "Which one wins?"
 date:   2017-09-26 22:00:00

@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+crosspost_to_medium: true
 title:  "How to compare maturity of the blogs of a teenager and an adult"
 excerpt: "Hint: NLTK!"
 date:   2017-10-01 22:00:00

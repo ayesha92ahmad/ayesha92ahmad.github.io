@@ -21,6 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ayesha92ahmad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ayesha92ahmad
 github_username:  ayesha92ahmad
+MEDIUM_INTEGRATION_TOKEN: 29185ea40baa352640b182568a3e9d92b29f9130d58a8b476421e6859cfe70a1d
+MEDIUM_USER_ID: ayesha92ahmad
 disqus:
     shortname: ayesha92ahmad-github-io
 featurepic: assets/featurepic.jpeg
@@ -32,6 +34,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-crosspost-to-medium
 defaults:
   - scope:
       path: "assets/img"
