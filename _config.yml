@@ -23,9 +23,8 @@ twitter_username: ayesha92ahmad
 github_username:  ayesha92ahmad
 medium_id: ayesha92ahmad
 linkedIn: ayesha92ahmad
-'''
-MEDIUM_INTEGRATION_TOKEN= "29185ea40baa352640b182568a3e9d92b29f9130d58a8b476421e6859cfe70a1d"
-MEDIUM_USER_ID= ayesha92ahmad'''
+MEDIUM_INTEGRATION_TOKEN: "29185ea40baa352640b182568a3e9d92b29f9130d58a8b476421e6859cfe70a1d"
+MEDIUM_USER_ID: ayesha92ahmad
 disqus:
     shortname: ayesha92ahmad-github-io
 featurepic: assets/featurepic.jpeg
