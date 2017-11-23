@@ -5,13 +5,14 @@ title:  "Multitasking does not exist!"
 excerpt: "Yes! You heard me! It does not!"
 date:   2017-11-23 16:11:00
 tags:
-- jekyll
-- code
+- multitasking
+- pomodoro
+- productivity
 ---
 
 ### Yes! You heard me! It does not!
 
-![Productivity](https://github.com/ayesha92ahmad/ayesha92ahmad.github.io/blob/master/assets/img/productivity-1995786_960_720.jpg)
+![Productivity]({{ site.url }}/assets/img/productivity-1995786_960_720.jpg)
 
 This is how it works. Every time you try to multitask, you are doing what is known as context switching in the computer world! When you work on more than one action, you give a few seconds of your attention span to each of those actions. So you are not really multitasking. you are still focusing on one thing, but for a very limited amount of time.
 
